@@ -25,4 +25,11 @@ $ gitbook build
 # or, to watch/liverelad while writting:
 $ gitbook serve
 ```
-  
+
+### Credits
+
+...
+
+### License
+
+MIT

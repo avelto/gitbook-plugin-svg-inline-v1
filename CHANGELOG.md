@@ -1,5 +1,5 @@
 # Change Log
 
 * jpa 09/05/2016 10:49 - Initial setup
-    * Objective: Produce the documentation for this plugin with gitbook [@](docs/Gitbook_for_documentation.md)
-    * Add book.json and plugins    
+    * Objective: Produce the documentation for this plugin with gitbook [@](docs/Gitbook_For_Documentation.md)
+    * Add book.json, plugins    

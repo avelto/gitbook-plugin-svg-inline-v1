@@ -13,4 +13,10 @@
 
 * [Objectives](docs/Objectives.md)
     * [Gitbook for documentation](docs/Gitbook_For_Documentation.md)
+    * [NPM Package](docs/NPM_Package.md)
+    * [Code Linting](docs/Code_Linting.md)
 
+
+* [Developments and References](docs/Devs.md)
+    * [Git](docs/Git.md)
+ 

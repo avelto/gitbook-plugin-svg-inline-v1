@@ -26,6 +26,10 @@ From there on, this can be served with
 All other documentation is kept under the `./docs` directory and reference as follow in the `SUMMARY.md`: 
 
 ```
-    * [Gitbook for documentation](docs/gitbook_for_documentation.md)
+    * [Gitbook for documentation](docs/Gitbook_For_Documentation.md)
     
 ```
+
+## Plugins
+
+* [Prism](http://prismjs.com/) syntax highlight [@](https://plugins.gitbook.com/plugin/prism) 

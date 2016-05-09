@@ -1,0 +1,13 @@
+{
+  "gitbook": "2.x",
+  "title": "Gitbook Plugin SVG Inline",
+  "structure": {
+    "summary": "SUMMARY.md"
+  },
+  "plugins": [
+    "-highlight",
+    "prism"
+  ],
+  "pluginsConfig": {
+  }
+}

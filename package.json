@@ -1,0 +1,32 @@
+{
+  "name": "gitbook-plugin-svg-inline",
+  "version": "1.0.0",
+  "description": "First class citizen SVG for GitBook",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "gitbook-plugin-prism": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avelto/gitbook-plugin-svg-inline.git"
+  },
+  "keywords": [
+    "gitbook",
+    "plugin",
+    "svg",
+    "inline"
+  ],
+  "author": "Jean-Philippe Avelange <jpa@avelto.com> (http://avelto.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avelto/gitbook-plugin-svg-inline/issues"
+  },
+  "homepage": "https://github.com/avelto/gitbook-plugin-svg-inline#readme"
+}
