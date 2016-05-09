@@ -32,4 +32,8 @@ All other documentation is kept under the `./docs` directory and reference as fo
 
 ## Plugins
 
-* [Prism](http://prismjs.com/) syntax highlight [@](https://plugins.gitbook.com/plugin/prism) 
+* [Prism](http://prismjs.com/) syntax highlight [@](https://plugins.gitbook.com/plugin/prism)
+ 
+### Removed
+
+* "-sharing"

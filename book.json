@@ -5,6 +5,7 @@
     "summary": "SUMMARY.md"
   },
   "plugins": [
+    "-sharing",
     "-highlight",
     "prism"
   ],
