@@ -1,10 +1,11 @@
 # Objectives
 
-## Objectives covered or under development 
-* Produce the documentation for this plugin with gitbook [@](Gitbook_For_Documentation.md)
+## Objectives covered
 * Create and publish as an NPM package [@](NPM_Package.md)
+* Write [ES6] [@](ES6.md)
 * [ESLint](http://eslint.org/) all the things [@](Code_Linting.md)
 
+## Objectives partially covered covered or under development
 
 ## Target Objectives
 * Use of the plugin itself within the documentation
