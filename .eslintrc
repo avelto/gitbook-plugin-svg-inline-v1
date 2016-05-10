@@ -11,6 +11,8 @@
     "indent": [ "error", 4 ],
     "no-console": 0,
     "space-in-parens": [ 2, "always" ],
+    "padded-blocks": [ 0, "always" ],
+    "quotes": [ "error",  "single" ]
   }
 }
 

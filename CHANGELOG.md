@@ -1,7 +1,7 @@
 # Change Log
 
 * jpa 09/05/2016 21:51 - Automated testing
-
+    * Mocha with Chai
 
 * jpa 09/05/2016 21:48 - ES6 and ESLint
     * Figured out that node `v5.10.1` already covers a lot from ES6, so no Babel transpiling needed

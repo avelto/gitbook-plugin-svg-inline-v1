@@ -16,6 +16,7 @@
     * [NPM Package](docs/NPM_Package.md)
     * [ES6 and Babel](docs/ES6.md)
     * [Code Linting](docs/Code_Linting.md)
+    * [Automated Testing](docs/Automated_Testing.md)
 
 
 * [Developments and References](docs/Devs.md)

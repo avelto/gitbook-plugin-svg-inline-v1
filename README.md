@@ -26,10 +26,12 @@ $ gitbook build
 $ gitbook serve
 ```
 
-### Credits
+## Credits
 
 ...
 
-### License
+## License
 
 MIT
+
+{% include 'CHANGELOG.md' %}
