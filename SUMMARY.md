@@ -20,5 +20,7 @@
 
 
 * [Developments and References](docs/Devs.md)
+    * [Misc](docs/Misc.md)
     * [Git](docs/Git.md)
+
  

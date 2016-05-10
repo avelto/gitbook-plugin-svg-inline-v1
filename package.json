@@ -2,13 +2,13 @@
   "name": "gitbook-plugin-svg-inline",
   "version": "1.0.0",
   "description": "First class citizen SVG for GitBook",
-  "main": "index.js",
+  "main": "./index.js",
   "directories": {
     "doc": "docs"
   },
   "engines": {
     "node": ">v5.10.1",
-    "gitbook": ">2.x.x"
+    "gitbook": ">=2.0.0"
   },
   "scripts": {
     "test": "mocha"
@@ -28,7 +28,7 @@
   "bugs": {
     "url": "https://github.com/avelto/gitbook-plugin-svg-inline/issues"
   },
-  "homepage": "https://github.com/avelto/gitbook-plugin-svg-inline#readme"
+  "homepage": "https://github.com/avelto/gitbook-plugin-svg-inline#readme",
   "dependencies": {},
   "devDependencies": {
     "chai": "^3.5.0",
@@ -40,5 +40,5 @@
     "eslint-plugin-react": "^5.0.1",
     "gitbook-plugin-prism": "^1.0.0",
     "mocha": "^2.4.5"
-  },
+  }
 }

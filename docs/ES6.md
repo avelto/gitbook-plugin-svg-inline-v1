@@ -26,3 +26,8 @@ For the foreseen use of this module, it seems the transpiling is not necessary.
 ### Webstorm
  
     [Setup](http://mcculloughwebservices.com/2015/12/10/webstorm-babel-6-plugin/)
+    
+## ES6 highlights
+
+### Generators to loop over an array with asynchronous calls
+ 

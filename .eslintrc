@@ -12,7 +12,9 @@
     "no-console": 0,
     "space-in-parens": [ 2, "always" ],
     "padded-blocks": [ 0, "always" ],
-    "quotes": [ "error",  "single" ]
+    "quotes": [ "error",  "single" ],
+    "comma-dangle": 0,
+    "template-curly-spacing": [ "error", "always" ]
   }
 }
 
