@@ -1,10 +1,4 @@
-console.log( 'Hello!!!' );
-
-function* jsRocksIsAwesome() {
-    yield 'JS Rocks is Awesome';
-    yield 'JS Rocks says JavaScript Rocks';
-    return 'because JavaScript really rocks';
-}
+var SvgInline = require( './src/svg-inline' );
 
 module.exports = {
     // Extend ebook resources and html
@@ -58,23 +52,34 @@ module.exports = {
         init: function init() {
             console.log( '% Init SVG helper library!' );
 
-            const jsRocks = jsRocksIsAwesome();
-
-            console.log( jsRocks.next() );
-            console.log( jsRocks.next() );
-            console.log( jsRocks.next() );
+            this.SvgInlinePlugin = new SvgInline( this );
         },
 
         // After page has been converted to html
         page: function pageF( page ) { // after page has been converted to html
 
-            console.log( `page: ${ page }` );
+            // console.log( `page: ${ page }` );
 
-            for ( var section of page.sections ) {
-                console.log( 'section:', section.type, section.content );
-                section.content = '<h1>LA MOUCHE</h1>' + section.content;
-            }
+            // for ( var section of page.sections ) {
+            //     // console.log( 'section:', section.type, section.content );
+            //     section.content = '<h1>LA MOUCHE</h1>' + section.content;
+            // }
 
+            const sections = page.sections.filter( function( section ){ return section.type === 'normal'; } );
+
+            sections.forEach( function( section ) {
+                const newContent = `${ section.content }`;
+                section.content = newContent;
+            } );
+
+
+
+            // for ( var i = 0; i <= page.sections.length; i++ ) {
+            //     // console.log( 'section', page.sections[ i ] );
+            //     // page.sections[ i ].content = '<h1>LA MOUCHE</h1>' + page.sections[ i ].content;
+            // }
+
+            // page.content = page.content + '<h1><WHAT THE FUCK??</h1>';
             return page;
         },
 

@@ -14,7 +14,8 @@
     "padded-blocks": [ 0, "always" ],
     "quotes": [ "error",  "single" ],
     "comma-dangle": 0,
-    "template-curly-spacing": [ "error", "always" ]
+    "template-curly-spacing": [ "error", "always" ],
+    "no-unused-expressions": 0
   }
 }
 
