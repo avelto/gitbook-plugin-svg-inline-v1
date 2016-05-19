@@ -1,4 +1,7 @@
-var SvgInline = require( './src/svg-inline' );
+const fs = require( 'fs' );
+const path = require( 'path' );
+
+const SvgInline = require( './src/svg-inline' );
 
 module.exports = {
     // Extend ebook resources and html
@@ -50,9 +53,9 @@ module.exports = {
 
         // This is called before the book is generated
         init: function init() {
-            console.log( '% Init SVG helper library!' );
+            console.log( 'info: init svg inline plugin' );
 
-            this.SvgInlinePlugin = new SvgInline( this );
+            this.svgInlinePlugin = new SvgInline( this );
         },
 
         // After page has been converted to html
@@ -65,27 +68,37 @@ module.exports = {
             //     section.content = '<h1>LA MOUCHE</h1>' + section.content;
             // }
 
-            const sections = page.sections.filter( function( section ){ return section.type === 'normal'; } );
-
-            sections.forEach( function( section ) {
-                const newContent = `${ section.content }`;
-                section.content = newContent;
+            // let ref;
+            //
+            this.svgInlinePlugin.onPage( this, page, function ( result ) {
+                // console.log( 'result', result );
+                // ref = result;
             } );
 
-
-
-            // for ( var i = 0; i <= page.sections.length; i++ ) {
+            // for ( let i = 0; i <= page.sections.length; i++ ) {
             //     // console.log( 'section', page.sections[ i ] );
-            //     // page.sections[ i ].content = '<h1>LA MOUCHE</h1>' + page.sections[ i ].content;
+            //     if ( page.sections[ i ] ) {
+            //         page.sections[ i ].content = '<h1>LA MOUCHE</h1>' + page.sections[ i ].content;
+            //     }
             // }
 
-            // page.content = page.content + '<h1><WHAT THE FUCK??</h1>';
+            // page.content = '<h1><WHAT THE FUCK??</h1>' + page.content;
+            // console.log( page );
             return page;
         },
 
         // This is called after the book generation
         finish: function finish() {
-            console.log( '% Finish!' );
+            console.log( 'info: svg inling plugin done' );
+
+            console.log( 'info: patching style.css' );
+            const _styleFilePath = path.join( process.cwd(), '_book/gitbook/style.css' );
+            const _style = fs.readFileSync( _styleFilePath, 'utf8' );
+            const _out = _style.replace( /font-size:inherit/, '' );
+            // console.log( _out );
+
+            fs.writeFileSync( _styleFilePath, _out );
+
         }
     }
 };

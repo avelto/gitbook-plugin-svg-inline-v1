@@ -12,6 +12,12 @@ Custom rules:
     "indent": [ "error", 4 ],
     "no-console": 0,
     "space-in-parens": [ 2, "always" ],
+    "padded-blocks": [ 0, "always" ],
+    "quotes": [ "error",  "single" ],
+    "comma-dangle": 0,
+    "template-curly-spacing": [ "error", "always" ],
+    "no-unused-expressions": 0,
+    "max-len": 0,
 ```
 
 ## Installation

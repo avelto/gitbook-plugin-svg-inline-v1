@@ -15,7 +15,9 @@
     "quotes": [ "error",  "single" ],
     "comma-dangle": 0,
     "template-curly-spacing": [ "error", "always" ],
-    "no-unused-expressions": 0
+    "no-unused-expressions": 0,
+    "max-len": 0,
+    "computed-property-spacing": [ "error", "always" ]
   }
 }
 

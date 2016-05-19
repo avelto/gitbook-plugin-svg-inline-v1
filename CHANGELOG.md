@@ -1,5 +1,10 @@
 # Change Log
 
+
+* jpa 19/05/2016 11:13 - Actual plugin dev and gitbook plugin automated tests
+    * Inline SVG [@](docs/SVG_Inline_Features.md)
+    * Demos [@](docs/Demos.md)
+
 * jpa 09/05/2016 21:51 - Automated testing
     * Mocha with Chai
 

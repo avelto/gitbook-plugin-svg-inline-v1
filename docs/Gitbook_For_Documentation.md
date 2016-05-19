@@ -33,6 +33,7 @@ All other documentation is kept under the `./docs` directory and reference as fo
 ## Plugins
 
 * [Prism](http://prismjs.com/) syntax highlight [@](https://plugins.gitbook.com/plugin/prism)
+* Anchors [@](https://plugins.gitbook.com/plugin/anchors)
  
 ### Removed
 

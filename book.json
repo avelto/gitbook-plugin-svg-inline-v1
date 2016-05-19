@@ -8,6 +8,7 @@
     "-sharing",
     "-highlight",
     "prism",
+    "anchors",
     "svg-inline"
   ],
   "pluginsConfig": {
